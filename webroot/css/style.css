@@ -1,0 +1,262 @@
+/**
+ * General elements
+ */
+body {
+    background-color: #fdfdfd;
+    color: #36393b;
+    font-family: arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+}
+ 
+ 
+/**
+ * Layout for header and navbar
+ */
+header#top {
+    height: 90px;
+    width: 100%;
+    min-width: 980px;
+    background-color: rgb(97, 16, 58); /*if browser does not support rgba*/
+    position: fixed;
+    text-align: center;
+    padding:0 20px;
+    
+    /*shadow*/
+    -moz-box-shadow: 0px 0px 12px #3ddbed;
+    -webkit-box-shadow: 0px 0px 12px #3ddbed;
+    box-shadow: 0px 0px 12px #3ddbed;
+}
+
+div#head{
+    margin: 0 auto;
+    width: 980px; 
+}
+
+
+div#logo {
+    float:left;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+ 
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+ 
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+ 
+/**
+ * MENU
+ *
+ */
+ 
+nav#nav_wrapp {
+    float: right;
+    margin:0;
+    height:100%;
+}
+ul.navbar {
+  padding: 0;
+  margin: 0;
+}
+
+ul.navbar li {
+  float: left;
+  list-style: none outside none;
+  width: 125px;
+}
+
+ul.navbar li a{
+    color: #ffffff;
+    display: block;
+    font: 16px "YanoneKaffeesatzRegular",arial,sans-serif;
+    margin: 0 0 0 2px;
+    padding: 55px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Britannic Bold;
+}
+
+ul.navbar li:first-child {
+  padding-left: 0;
+}
+
+ul.navbar li.selected a {
+  background-color: #cf0524;
+}    
+ 
+ul.navbar a:hover {
+  background-color: #808080;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+    background-color: #fdfdfd;
+    margin: 0px;
+    min-height: 20em;
+    padding: 150px 20px 20px 20px;
+}
+
+figure {
+    border:1px solid #c0c0c0;
+    padding:10px;
+    margin:1em;
+
+}
+
+figcaption {
+    font-style:italic;
+    font-size:smaller;
+    padding-left:1em;
+    
+}
+
+figure.moffice{
+    border-radius: 5px 5px 5px 5px;
+    margin: 0px 0px 10px 10px; 
+}
+
+figure.moffice2{
+    border-radius: 5px 5px 5px 5px;
+    margin: 0px 0px 10px 10px; 
+}
+
+ul {
+    font-weight: bold;
+    text-align: center; 
+}
+
+ul.gameparam {
+  margin-bottom: 50px;
+}
+
+ul.gameparam li {
+  list-style: none outside none;
+  display: inline;
+  margin: 20px;
+}
+
+.center{text-align:center;}
+.border{border: 1px solid #ccc;}
+
+.right{float: right;}
+ 
+/**
+ * Layout for footer
+ */
+
+ 
+.sitefooter {
+  color: #a80f26;
+  text-align: center;
+}
+
+
+#footer {
+  border-top: 1px solid #d7d7d7;
+  padding: 20px 0px;
+  color: #666;
+  font-size: smaller;
+  border-radius: 20%;;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: sans-serif;
+      display: inline;
+    float: left;
+    width: 97.916666666667%;
+    margin: 0 1.0416666666667%;
+    margin-bottom: 22px;
+        margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+
+    
+    /*shadow*/
+    -moz-box-shadow: 0px 0px 2px #4daedd;
+    -webkit-box-shadow: 0px 0px 2px #4daedd;
+    box-shadow: 0px 0px 2px #4daedd;
+}
+
+@color:@greyLight;
+footer {border-top:1px solid @color;font-size:smaller;color:@color;margin-top:@magic-number;padding-top:0.5em;
+  a{color:@color;text-decoration:none;
+    &:hover{color:darken(@color,40%);text-decoration:underline;}
+  }
+
+/**
+ * Text
+ *
+ */
+ 
+h1{
+    font-family: arial,sans-serif;
+    font-size:30px;
+    /*background-color: #A8D2E8;*/
+    /*padding: 10px;*/
+    /*color: #A8D2E8;*/
+}
+
+h2{
+    font-family: arial,sans-serif;
+    font-size: 24px;
+}
+
+h4{
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h5{
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+h6{
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+/** --------------------------------------------------------------
+ * Colors.
+ * 
+ */
+@black:#000;
+@blue:#049cdb;
+@green:#46a546;
+@red:#9d261d;
+@yellow:#ffc40d;
+@orange:#f89406;
+@grey:#555;
+@greyLight:#999;
+@greyLighter:#eee;
+
+.black{color:@black;}
+.blue{color:@blue;}
+.green{color:@green;}
+.red{color:@red;}
+.yellow{color:@yellow;}
+.orange{color:@orange;}
