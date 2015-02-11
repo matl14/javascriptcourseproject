@@ -8,7 +8,7 @@
 
 </footer>
 <script src="../js/jquery-1.11.1.js"></script>
-<script src="../jquery/lightbox.js"></script>
+<script src="../lightboxplug/lightbox.js"></script>
 <script src="../mall/mosex.js"></script>
 <script src="main.js"></script>
 </body>

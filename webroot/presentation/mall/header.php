@@ -12,7 +12,7 @@
 <body>
 <header id="top">
 <div id = 'logo'>
-<img class='sitelogo' src='img/logo.png' alt='mtp logo' width='70' height='70'/>
+<img class='sitelogo' src='../img/logo.png' alt='mtp logo' width='70' height='70'/>
 </div>
 
 
@@ -20,7 +20,7 @@
 <nav class = "navbar">
     <ul>
         <li><a href="../../home.php">Hem</a></li>
-        <li><a href="plugins.php">Presentation</a></li>
+        <li><a href="../../presentation.php">Presentation</a></li>
         <li><a href="../../about.php">Om</a></li>
         <li><a href="../../installation.php">Installation</a></li>
     </ul>
