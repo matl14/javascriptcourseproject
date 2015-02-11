@@ -71,6 +71,8 @@ Gallery Script
 7. Change layout / appearance of the image gallery in the file "style.less". Try it out carefully if you're unsure, take your time. Otherwise you may keep the current styling if it fits with your website original theme.
 
 
+<hr>
+
 Slideshow script
 ------------------
 1. Download the following file: 
