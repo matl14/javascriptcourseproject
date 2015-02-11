@@ -80,7 +80,7 @@ Slideshow script
 1. Download the following file: 
 <a href="zips/slideshowjavascript.zip"> Download the zip file </a>
 
-2.Place the downloaded folder with the files in the same directory where your other files as config, indexes, your file on the home page, etc. 
+2. Place the downloaded folder with the files in the same directory where your other files as config, indexes, your file on the home page, etc. 
 
 3. Change the path and file name where necessary. For example: if you are in your navigation menu links to a page called "collection" or "collection" and the like that will contain the slideshow to show off your pictures, you can change the name of the downloaded file called "slideshow script" to "collection "or" collection "or anything else that fits your business better.
 
