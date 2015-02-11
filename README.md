@@ -62,15 +62,15 @@ Gallery Script
 
 5. Make sure you have the file header that contains the link to the page's default stylesheet (layout / appearance). If not, you can look at how our looks like this: <ahref="http://www.student.bth.se/~matl14/javascript/kmom10/webroot/source.php?path=webroot/presentation/mall/header.php">sourcecode for the header </a>.
 
-Since this is a script, you have where everything needed to get this to work. Just be sure to link to this page with your gallery on your other pages or for example in your navbar / navigation menu. 
+6. Since this is a script, you have where everything needed to get this to work. Just be sure to link to this page with your gallery on your other pages or for example in your navbar / navigation menu. 
 
-6. Modify the following sample code in the "Gallery Script" file and specify the folder to your pictures right path: 
+7. Modify the following sample code in the "Gallery Script" file and specify the folder to your pictures right path: 
 </ p>
 <pre>
 & lt; img SRC1 = '.. / img / 1.jpg' width = '400' height = '300' / & gt;
 </ pre>
 
-7. Change layout / appearance of the image gallery in the file "style.less". Try it out carefully if you're unsure, take your time. Otherwise you may keep the current styling if it fits with your website original theme.
+8. Change layout / appearance of the image gallery in the file "style.less". Try it out carefully if you're unsure, take your time. Otherwise you may keep the current styling if it fits with your website original theme.
 
 
 <hr>
@@ -88,13 +88,13 @@ Slideshow script
 
 5. Make sure you have the file header that contains the link to the page's default stylesheet (layout / appearance). If not, you can look at how our looks like this: <ahref="http://www.student.bth.se/~matl14/javascript/kmom10/webroot/source.php?path=webroot/presentation/mall/header.php">sourcecode for the header </a>. 
 
-Since this is a script so you have everything in the folder that you download needed to make it work. Just be sure to link to this page with your slideshow on your other pages or for example in your navbar / navigation menu so that customers / visitors easily find their way there!
+6. Since this is a script so you have everything in the folder that you download needed to make it work. Just be sure to link to this page with your slideshow on your other pages or for example in your navbar / navigation menu so that customers / visitors easily find their way there!
 
-6. Modify the following sample code in the "slideshow script" file and specify the folder to your pictures right path:
+7. Modify the following sample code in the "slideshow script" file and specify the folder to your pictures right path:
 </ p>
 <pre>
 & lt; img src = "img / slideshow / <? = $ src?> 'alt =' img '/ & gt;
 </ pre>
 
-7. Change layout / appearance of the image gallery in the file "style.less". Try it out carefully if you're unsure, take your time. Otherwise you may keep the current styling if it fits with your website original theme.
+8. Change layout / appearance of the image gallery in the file "style.less". Try it out carefully if you're unsure, take your time. Otherwise you may keep the current styling if it fits with your website original theme.
 
